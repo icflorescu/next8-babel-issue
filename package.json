@@ -1,0 +1,25 @@
+{
+  "name": "next8-babel-issue",
+  "version": "1.0.0",
+  "description": "Next.js test repo",
+  "main": "index.js",
+  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -w ./server -w ./app/.babelrc.js -x 'babel-node ./server/index.js'"
+  },
+  "dependencies": {
+    "@zeit/next-stylus": "^1.0.1",
+    "express": "^4.16.4",
+    "next": "^8.0.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "nodemon": "^1.18.10"
+  }
+}
